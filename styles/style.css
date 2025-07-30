@@ -127,7 +127,7 @@
 }
 
 .subtitle {
-  max-width: 491px;
+  max-width: 355px;
 }
 
 .title-decor {
@@ -207,7 +207,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  min-height: 667px;
+  max-height: 667px;
   padding: 10px;
 }
 
@@ -357,6 +357,10 @@
     grid-column: 2;
     grid-row: auto;
     justify-self: center;
+  }
+
+  .subtitle {
+    max-width: 491px;
   }
 
   .cards__list {
